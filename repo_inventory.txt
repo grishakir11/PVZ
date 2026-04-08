@@ -1,0 +1,165 @@
+﻿=== ROOT ===
+
+Mode   Length LastWriteTime       Name              
+----   ------ -------------       ----              
+d-----        14.03.2026 1:01:32  pvz_project       
+d-----        08.04.2026 19:54:12 scripts           
+-a---- 357    08.04.2026 19:54:43 .gitignore        
+-a---- 17     08.04.2026 19:57:56 repo_inventory.txt
+-a---- 102    08.04.2026 19:55:05 requirements.txt  
+
+
+
+=== scripts (1 уровень) ===
+
+Mode   Length LastWriteTime       Name   
+----   ------ -------------       ----   
+d-----        08.04.2026 19:48:18 archive
+d-----        08.04.2026 19:48:10 final  
+
+
+
+=== scripts/final ===
+
+Name                                     
+----                                     
+00_build_walk_graph_from_pbf.py          
+01_district_features_from_osm.py         
+02b_add_walk_metrics_multipoint.py       
+05_make_demand_and_candidates_v2.py      
+06_select_pvz_greedy_maxcoverage.py      
+11_saturation_curve_share10.py           
+12_saturation_curve_time_from_home.py    
+16_select_pvz_min_mean_time_k20.py       
+18_select_pvz_max_effective_demand_k20.py
+20_select_effective_k20_keep_zelenogra.py
+21_compare_k20_four_networks_by_distri.py
+22_make_k20_conclusion_tables.py         
+23_make_k20_final_panels.py              
+24_make_demand_scheme_figure.py          
+25_make_candidate_scheme_figure.py       
+
+
+
+=== scripts/archive ===
+
+Name                                     
+----                                     
+02_add_walk_metrics.py                   
+03_build_district_index.py               
+03_build_district_index_v2.py            
+04_diagnose_index.py                     
+05_make_demand_and_candidates.py         
+07_make_map_full.py                      
+08_resident_demand_convenience_by_dist.py
+09_make_map_resident_metrics.py          
+10_priority_districts_report.py          
+12_eval_k_scenarios_share10_by_distric.py
+13_economic_effect_scenarios.py          
+14b_delta_png_no_internet.py             
+14_delta_k20_k30_by_district_and_map.py  
+15_make_thesis_artifacts.py              
+17b_plot_points_two_colors.py            
+17_compare_k20_baseline_vs_mean.py       
+19_compare_k20_three_networks_by_distr.py
+
+
+
+=== pvz_project (до глубины 2) ===
+
+DirectoryName                                              Name                                            Length
+-------------                                              ----                                            ------
+C:\Users\sgs-w\Downloads\repo\pvz_project                  candidate_points.csv                            311091
+C:\Users\sgs-w\Downloads\repo\pvz_project                  candidate_points.gpkg                           704512
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_by_district.csv                      38006
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_four_by_district.csv                 63761
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_four_objectives.csv                    658
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_objectives.csv                         255
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_three_by_district.csv                47792
+C:\Users\sgs-w\Downloads\repo\pvz_project                  compare_k20_three_objectives.csv                   513
+C:\Users\sgs-w\Downloads\repo\pvz_project                  delta_k20_k30_by_district.csv                    45366
+C:\Users\sgs-w\Downloads\repo\pvz_project                  delta_mean_time_min_k20_k30.png                 269723
+C:\Users\sgs-w\Downloads\repo\pvz_project                  delta_share_10min_k20_k30.png                   292443
+C:\Users\sgs-w\Downloads\repo\pvz_project                  demand_by_district.csv                            6028
+C:\Users\sgs-w\Downloads\repo\pvz_project                  demand_points.csv                               486006
+C:\Users\sgs-w\Downloads\repo\pvz_project                  demand_points.gpkg                              872448
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features.csv                            20293
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features.gpkg                         2056192
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features_walk.csv                       23604
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features_walk.gpkg                     892928
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features_walk_mp.csv                    23866
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_features_walk_mp.gpkg                  892928
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_index.csv                               43950
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_index.gpkg                             913408
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_index_breakdown.csv                     39343
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_index_v2.csv                            44228
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_index_v2.gpkg                          917504
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_priority.csv                            17943
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_priority.txt                             1187
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_resident_metrics.csv                    16374
+C:\Users\sgs-w\Downloads\repo\pvz_project                  district_resident_metrics.gpkg                  917504
+C:\Users\sgs-w\Downloads\repo\pvz_project                  econ_k_metrics.csv                                 586
+C:\Users\sgs-w\Downloads\repo\pvz_project                  econ_scenarios.csv                                1412
+C:\Users\sgs-w\Downloads\repo\pvz_project                  econ_transitions.csv                               453
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_candidate_points_scheme.png                 275559
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_city_deff_methods.png                        69868
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_city_mean_methods.png                        67589
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_city_p50_methods.png                         65189
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_city_p90_methods.png                         67625
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_city_share10_methods.png                     75754
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_demand_model_scheme.png                     773569
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_k20_top_keep_mean_vs_base.png               149114
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_k20_top_keep_share10_vs_base.png            148499
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_top_keep_mean_vs_base.png                   117182
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_top_keep_mean_vs_eff.png                    131823
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_top_keep_share10_vs_base.png                126318
+C:\Users\sgs-w\Downloads\repo\pvz_project                  fig_top_keep_share10_vs_eff.png                 130628
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k_scenarios_share10_by_district.csv              17095
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k_scenarios_share10_city.csv                       298
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_final_deltas_vs_base.csv                       510
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_final_summary_city.csv                         649
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_method_wins_by_district.csv                   8731
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_top_keep_mean_vs_base.csv                     1623
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_top_keep_mean_vs_eff.csv                      1419
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_top_keep_share10_vs_base.csv                  1412
+C:\Users\sgs-w\Downloads\repo\pvz_project                  k20_top_keep_share10_vs_eff.csv                    920
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_k20_k30.html                         2852952
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_mean_time_effective_keep_vs_base.png  328669
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_mean_time_effective_vs_base.png       328825
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_mean_time_k20_baseline_vs_mean.png    326046
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_mean_time_min_mean_vs_base.png        327861
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_share10_effective_keep_vs_base.png    329952
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_share10_effective_vs_base.png         320970
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_share10_k20_baseline_vs_mean.png      322269
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_delta_share10_min_mean_vs_base.png          324278
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_full_pvz20.html                            1702780
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_points_k20_baseline_red_mean_blue.png       422954
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_points_k20_baseline_vs_mean.png             305423
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_points_k20_four.png                         432788
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_points_k20_three.png                        425703
+C:\Users\sgs-w\Downloads\repo\pvz_project                  map_resident_metrics_pvz20.html                2694492
+C:\Users\sgs-w\Downloads\repo\pvz_project                  moscow_districts.geojson                        998691
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_added_k20_to_k30.csv                           690
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_coverage_report.txt                            193
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_project.zip                                 840692
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_20.csv                               2061
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_20.gpkg                             98304
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_effective_k20.csv                    1305
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_effective_keep_zelenograd_k20.csv    1641
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_kmax.csv                             3829
+C:\Users\sgs-w\Downloads\repo\pvz_project                  pvz_selected_mean_k20.csv                         1273
+C:\Users\sgs-w\Downloads\repo\pvz_project                  saturation_curve_share10.csv                       539
+C:\Users\sgs-w\Downloads\repo\pvz_project                  saturation_curve_share10.png                     54965
+C:\Users\sgs-w\Downloads\repo\pvz_project                  saturation_curve_time_from_home.csv                503
+C:\Users\sgs-w\Downloads\repo\pvz_project                  saturation_curve_time_from_home.png              92471
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts fig_delta_mean_time_k20_k30.png                 297609
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts fig_delta_share10_k20_k30.png                   328220
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts fig_share10_curve.png                            68865
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts fig_time_curve.png                              106719
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts summary.txt                                        384
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts table_econ_scenarios.csv                          1339
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts table_k_summary.csv                                442
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts top_districts_by_delta_mean_time.csv              1291
+C:\Users\sgs-w\Downloads\repo\pvz_project\thesis_artifacts top_districts_by_delta_share10.csv                1126
+
+

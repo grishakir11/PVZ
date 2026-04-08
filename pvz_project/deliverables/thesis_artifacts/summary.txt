@@ -1,0 +1,8 @@
+SUMMARY (без метро)
+
+K=20: share_10min=0.0781, mean=60.2 min, p50=70.5 min, p90=90.0 min
+K=30: share_10min=0.1060, mean=50.4 min, p50=51.0 min, p90=90.0 min
+K=40: share_10min=0.1327, mean=44.9 min, p50=41.7 min, p90=89.8 min
+K=60: share_10min=0.1817, mean=34.9 min, p50=29.2 min, p90=78.2 min
+
+Δ(K=20→30): Δshare_10min=+0.0280, Δmean_time=-9.9 min, Δp50=-19.4 min
