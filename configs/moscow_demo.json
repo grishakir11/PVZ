@@ -1,0 +1,56 @@
+{
+  "project_name": "PVZ Moscow Location Optimization",
+  "description": "Программная система выбора и анализа локаций ПВЗ в Москве",
+  "paths": {
+    "models_dir": "pvz_project/models",
+    "scripts_dir": "scripts/final",
+    "artifacts_dir": "pvz_project/deliverables/thesis_artifacts",
+    "outputs_dir": "outputs"
+  },
+  "demo": {
+    "default_k": 20,
+    "default_model": "coverage"
+  },
+  "model_aliases": {
+    "coverage": [
+      "pvz_selected_20",
+      "selected_20",
+      "coverage",
+      "maxcoverage",
+      "max_coverage",
+      "greedy"
+    ],
+    "mean_time": [
+      "pvz_selected_mean_k20",
+      "selected_mean",
+      "mean_k20",
+      "mean_time",
+      "min_mean",
+      "time"
+    ],
+    "effective": [
+      "pvz_selected_effective_k20",
+      "selected_effective",
+      "effective_k20",
+      "effective",
+      "eff",
+      "max_effective"
+    ],
+    "compromise": [
+      "pvz_selected_effective_keep_zelenograd_k20",
+      "keep_zelenograd",
+      "zelenograd",
+      "compromise",
+      "limited"
+    ],
+    "kmax": [
+      "pvz_selected_kmax",
+      "kmax"
+    ],
+    "k20_to_k30": [
+      "pvz_added_k20_to_k30",
+      "k20_to_k30",
+      "added"
+    ]
+  }
+}
