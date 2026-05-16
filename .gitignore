@@ -1,25 +1,55 @@
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
 .venv/
 venv/
-.env
+env/
+ENV/
+
+# Jupyter
 .ipynb_checkpoints/
 
-*.gpkg
-*.graphml
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit runtime state
+.streamlit/secrets.toml
+configs/ui_paths.json
+configs/runtime_pipeline.json
+
+# Runtime outputs
+outputs/
+logs/
+*.log
+
+# Large geodata / raw data
+data/raw/
+*.osm.pbf
 *.pbf
-*.parquet
-*.db
-*.sqlite
-*.zip
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.geojson
+*.graphml
+*.pkl
+*.pickle
 
-pvz_project/data/
-pvz_project/intermediate/
-pvz_project/cache/
-
-# если не хочешь пушить все картинки и таблицы
-pvz_project/results/
-pvz_project/figures/
-pvz_project/tables/
+# Temporary files
+tmp/
+temp/
+*.bak
+*.old

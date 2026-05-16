@@ -1,0 +1,16 @@
+CITY SUMMARY
+total_demand_total = 935,670,693
+unserved_demand_10min = 861,495,851
+city_share_10min (approx from district totals) = 0.079
+
+TOP 10 PRIORITY DISTRICTS (high demand + low convenience)
+Хорошёво-Мнёвники: priority=6.91e+07, unserved=1.73e+07, share10=0.000, p50=138.9m, p90=146.4m
+Сосенское: priority=6.67e+07, unserved=1.67e+07, share10=0.151, p50=40.9m, p90=93.3m
+Пресненский: priority=6.28e+07, unserved=1.57e+07, share10=0.000, p50=125.2m, p90=133.5m
+Раменки: priority=5.90e+07, unserved=1.77e+07, share10=0.203, p50=23.4m, p90=45.9m
+Выхино-Жулебино: priority=5.26e+07, unserved=1.31e+07, share10=0.000, p50=106.0m, p90=118.0m
+Люблино: priority=4.92e+07, unserved=1.25e+07, share10=0.000, p50=31.6m, p90=43.2m
+Южное Бутово: priority=4.82e+07, unserved=1.40e+07, share10=0.181, p50=24.3m, p90=90.4m
+Московский: priority=4.79e+07, unserved=1.20e+07, share10=0.000, p50=142.9m, p90=163.4m
+Гольяново: priority=4.79e+07, unserved=1.20e+07, share10=0.000, p50=192.6m, p90=209.4m
+Кунцево: priority=4.75e+07, unserved=1.19e+07, share10=0.000, p50=106.1m, p90=125.8m
